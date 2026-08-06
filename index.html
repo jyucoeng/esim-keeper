@@ -180,7 +180,7 @@
                 return;
             }
             
-            historyList.innerHTML = history.slice(-5).reverse().map(item => 
+            historyList.innerHTML = history.slice(-10).reverse().map(item => 
                 `<div class="history-item">✓ ${item.date} - ${item.size} KB</div>`
             ).join('');
         }
